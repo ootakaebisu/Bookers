@@ -1,0 +1,152 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boeder-box;
+  font-family: "verdana", "arial", "helvetica",  sans-serif;
+  color: #333;
+}
+
+main {
+  margin: 33px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 17.42px ;
+}
+
+.column-name {
+  display: flex;
+}
+
+.record {
+  display: flex;
+}
+
+
+
+h3 {
+  text-align: center;
+}
+
+.title, .title-contents {
+  width: 180px;
+}
+
+.body, .body-contents {
+  width: 385px;
+}
+
+h2 {
+  font-size: 19.5px;
+  margin: 16.185px 0px;
+}
+
+.a, .b {
+  margin: 1px 5px 7px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.x {
+  margin: 33px;
+}
+
+.y {
+  margin-bottom: 10px;
+}
+
+.z {
+  font-size: 13px;
+}
+
+h5 {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.t {
+  font-weight: normal;
+}
+
+table td {
+  padding: 1px 5px 7px;
+  font-size: 13px;
+  text-align: left;
+  font-weight: normal;
+}
+
+ul {
+  padding : 30px;
+  background-color: #e8e8e8;
+}
+
+h6 {
+  background-color: red;
+  padding : 10px;
+  color: #fff;
+  font-size: 13px;
+}
+
+/*h1 {*/
+/*  margin: 17.42px 0;*/
+/*  font-size: 26px;*/
+/*}*/
+
+/*.books {*/
+/*  display: flex;*/
+/*  font-size: 13px;*/
+  /*justify-content: start;*/
+/*}*/
+
+/*ul {*/
+/*  list-style: none;*/
+/*  padding-left: 0;*/
+/*}*/
+
+/*li {*/
+/*  font-weight: lighter;*/
+/*  padding: 1px 5px 7px;*/
+/*}*/
+
+/*a {*/
+/*  padding: 1px 5px 7px;*/
+/*}*/
+
+/*h3 {*/
+/*  text-align: center;*/
+/*  padding: 1px 1px 5px;*/
+/*}*/
+
+
+
+/*.title {*/
+/*  width: 180px;*/
+/*  margin-right: 10px;*/
+/*}*/
+
+/*.body {*/
+/*  width: 385px;*/
+/*  margin-right: 10px;*/
+/*}*/
+
+/*h2 {*/
+/*  margin: 10px;*/
+/*  font-size: 19.5px;*/
+/*}*/
